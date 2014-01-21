@@ -56,6 +56,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="_RunCodeCoverageInOutput.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExampleCoverageReport\combined.js" />
+    <Content Include="ExampleCoverageReport\DoStuff.Console_Program.htm" />
+    <Content Include="ExampleCoverageReport\DoStuff.Console_StuffDoer.htm" />
+    <Content Include="ExampleCoverageReport\index.htm" />
+    <Content Include="ExampleCoverageReport\report.css" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

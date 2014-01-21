@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoStuff.Console", "DoStuff.Console\DoStuff.Console.csproj", "{DF576E48-37B7-429F-9BA4-D903142DA3FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoStuff.UnitTests", "DoStuff.UnitTests\DoStuff.UnitTests.csproj", "{FC6CD258-3FEC-4C6F-BE3B-CAF97CCAC9F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{823F1016-5A58-4C74-8A29-3570D04B75DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,10 @@ Global
 		{DF576E48-37B7-429F-9BA4-D903142DA3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF576E48-37B7-429F-9BA4-D903142DA3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF576E48-37B7-429F-9BA4-D903142DA3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6CD258-3FEC-4C6F-BE3B-CAF97CCAC9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6CD258-3FEC-4C6F-BE3B-CAF97CCAC9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6CD258-3FEC-4C6F-BE3B-CAF97CCAC9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6CD258-3FEC-4C6F-BE3B-CAF97CCAC9F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

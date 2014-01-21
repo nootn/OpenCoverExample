@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoStuff.UnitTests", "DoStuff.UnitTests\DoStuff.UnitTests.csproj", "{FC6CD258-3FEC-4C6F-BE3B-CAF97CCAC9F4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{823F1016-5A58-4C74-8A29-3570D04B75DB}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
